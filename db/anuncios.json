@@ -1,0 +1,38 @@
+{ 
+    "anuncios": [ 
+    { 
+        "nombre": "Bicicleta", 
+        "venta": true,
+        "precio": 230.15,
+        "foto": "bici.jpg",
+        "tags": [ "lifestyle", "motor"] 
+    }, 
+    { 
+        "nombre": "iPhone 3GS", 
+        "venta": false,
+        "precio": 50.00,
+        "foto": "iphone.png",
+        "tags": [ "lifestyle", "mobile"] 
+    }, 
+    { 
+        "nombre": "Samsung Galaxy S5", 
+        "venta": true,
+        "precio": 20.00,
+        "foto": "samsung.png",
+        "tags": [ "lifestyle", "mobile"] 
+    }, 
+    { 
+        "nombre": "Silla de oficina", 
+        "venta": true,
+        "precio": 120.00,
+        "foto": "silla.jpeg",
+        "tags": [ "work"] 
+    }, 
+    { 
+        "nombre": "Ducati", 
+        "venta": false,
+        "precio": 5000.00,
+        "foto": "moto.jpeg",
+        "tags": [ "lifestyle", "motor"] 
+    } ] 
+}
