@@ -20,7 +20,7 @@ $ npm run dev
 
 ### Usuarios
 
-####- Registro de usuarios
+#### Registro de usuarios
 
 Podremos registrar usuarios. La clave se guarda en un [hash][].
 [hash]: https://www.npmjs.com/package/sha.js 
@@ -29,14 +29,14 @@ Podremos registrar usuarios. La clave se guarda en un [hash][].
 
 	Parametros POST
 		
-		* nombre
-		* clave
-		* email
+		- nombre
+		- clave
+		- email
 
 
 ### Anuncios
 
-####- Lista de anuncios
+#### Lista de anuncios
 
 Mostrará la lista de anuncios en base a nuestros parámetros introducidos. Será necesario estar autenticado (basicAuth).
 
@@ -58,13 +58,13 @@ Mostrará la lista de anuncios en base a nuestros parámetros introducidos. Ser�
 		- fields. Campos que devolvera la consulta.
 		- sort. Campo por el que se ordenarán los anuncios.
 		
-####- Lista de tags
+#### Lista de tags
 
 Mostrará los tags disponibles en base de datos.
 
 **URL:**  <http://localhost:3000/apiv2/anuncios/tags>
 
-####- Contenido estático
+#### Contenido estático
 
 Mostrará la imagen de los anuncios en base de datos.
 
