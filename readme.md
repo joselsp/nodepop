@@ -25,7 +25,7 @@ $ npm run dev
 Podremos registrar usuarios. La clave se guarda en un [hash][].
 [hash]: https://www.npmjs.com/package/sha.js 
 
-**URL:**   <http://localhost:3000/apiv2/usuarios>
+**URL:**   <https://www.devalphagt.com/apiv2/usuarios>
 
 	Parametros POST
 		
@@ -40,7 +40,7 @@ Podremos registrar usuarios. La clave se guarda en un [hash][].
 
 Mostrará la lista de anuncios en base a nuestros parámetros introducidos. Será necesario estar autenticado (basicAuth).
 
-**URL:**  <http://localhost:3000/apiv2/anuncios>
+**URL:**  <https://www.devalphagt.com/apiv2/anuncios>
 
 	Parametros GET
 	
@@ -62,10 +62,16 @@ Mostrará la lista de anuncios en base a nuestros parámetros introducidos. Ser�
 
 Mostrará los tags disponibles en base de datos.
 
-**URL:**  <http://localhost:3000/apiv2/anuncios/tags>
+**URL:**  <https://www.devalphagt.com/apiv2/anuncios/tags>
 
 #### Contenido estático
 
 Mostrará la imagen de los anuncios en base de datos.
 
-**URL:**  <http://localhost:3000/images/anuncios/<nombreRecurso\>>
+**URL:**  <https://www.devalphagt.com/images/anuncios/<nombreRecurso\>
+
+### URL de despliegue
+
+**URL:** https://www.devalphagt.com
+
+**IP:** http://34.198.166.76/
